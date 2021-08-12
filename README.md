@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/098b13c7-51c8-4ef7-8896-b2164e3b26c4/deploy-status)](https://app.netlify.com/sites/airblocks-marketing/deploys)
+
+
 # Neat Starter
 
 Starter Template for **N**etlify CMS, **E**leventy, **A**lpine JS & **T**ailwind CSS
