@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Primary Meta Tags -->
     <meta charset="UTF-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-      {{title}}
-    </title>
+
     {% if description %}
       <meta name="description" content="{{description}}"/>
     {% endif %}
     <link rel="canonical" href="/intro"/>
     <meta name="robots" content="index, follow" />
 
-    <meta property="og:title" content={{title}}/>
-    <meta property="og:url" content={{permalink}} />
-    <meta property="og:description" content={{description}} />
-    <meta property="og:image" content="/static/img/og_website.png"/>
-    <meta property="og:type" content="website" />
+    <title>Airblocks - Web-design & development</title>
+    <meta name="title" content="Airblocks - Web-design & development">
+    <meta name="description" content="Klik hier voor een originele maatwerk website en branding">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://airblocks.nl/">
+    <meta property="og:title" content="Airblocks - Web-design & development">
+    <meta property="og:description" content="Klik hier voor een originele maatwerk website en branding">
+    <meta property="og:image" content="/static/img/og_website.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://airblocks.nl/">
+    <meta property="twitter:title" content="Airblocks - Web-design & development">
+    <meta property="twitter:description" content="Klik hier voor een originele maatwerk website en branding">
+    <meta property="twitter:image" content="/static/img/og_website.png">
+    <!-- Meta end -->
 
     {% block head %}{% endblock %}
     <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
