@@ -2,19 +2,79 @@
 @tailwind components;
 @tailwind utilities;
 
-/*Your Custom CSS Goes here*/
-
-h1 {
-  @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
+body {
+  /**/
 }
 
-h3 {
-  @apply text-2xl font-bold mb-3;
+section {
+  @apply h-screen;
+  @apply relative;
 }
 
-/* Syntax Highlighting*/
+/* Landing Page */
 
-body :not(pre) > code[class*="language-"],
-body pre[class*="language-"] {
-  @apply bg-gray-800;
+#landing {
+  @apply bg-primary-nude;
 }
+#landing-title {
+  @apply text-8xl;
+  @apply absolute;
+  @apply text-primary-blue;
+  @apply ml-18;
+  @apply mt-32;
+  @apply z-40;
+}
+#landing-subtitle {
+  @apply text-5xl;
+  @apply absolute;
+  @apply text-primary-blue;
+  @apply ml-18;
+  @apply mt-56;
+}
+#landing-subtitle-dot {
+  @apply absolute;
+  @apply text-primary-orange;
+}
+#sun {
+  @apply text-primary-orange; 
+  @apply fill-current;
+  @apply z-0;
+}
+#sun-container {
+  @apply mt-10;
+  @apply absolute;
+  @apply ml-14;
+}
+#cloud1-img {
+  @apply absolute;
+  @apply inset-y-24;
+  @apply right-60;
+  @apply max-w-4xl;
+  @apply animate-bounce;
+}
+#cloud2-img {
+  @apply absolute;
+  @apply inset-y-24;
+  @apply right-80;
+  @apply left-80;
+  @apply max-w-4xl;
+  @apply animate-bounce;
+}
+#cloud3-img {
+  @apply absolute;
+  @apply left-28;
+  @apply bottom-52;
+  @apply max-w-4xl;
+  @apply animate-bounce;
+}
+#landing-shape-divider-bottom {
+  @apply absolute;
+  @apply text-primary-blue; 
+  @apply fill-current;
+  @apply inset-x-0;
+  @apply bottom-0;
+  @apply transform rotate-180;
+}
+
+
+

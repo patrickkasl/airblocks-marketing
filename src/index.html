@@ -1,16 +1,35 @@
 ---
 layout: default
 title: Airblocks
+subtitle: Luchtig
 path: home
 ---
 
-<div class="container flex flex-col items-center justify-center mx-auto lg:h-screen">
-  <h1>
-    <strong class="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">
+<section id="landing">
+  <svg id="sun-container" height="200" width="200">
+    <circle id="sun" cx="100" cy="100" r="90"/>
+  </svg>
+  <div id="landing-branding">
+  <h1 id="landing-title">
+    <strong>
       {{title}}
-      <br>
-      SOON
     </strong>
   </h1>
-</div>
+  <h4 id="landing-subtitle">
+      {{subtitle}}<b id="landing-subtitle-dot">.</b>
+  </h4>
+
+  <!-- Clouds -->
+  <img id="cloud1-img" src="/static/svg/cloud1.svg" alt="cloud1">
+  <img id="cloud2-img" src="/static/svg/cloud2.svg" alt="cloud2">
+  <img id="cloud3-img" src="/static/svg/cloud3.svg" alt="cloud3">
+  
+  <!-- Avatars -->
+  
+  <div id="landing-shape-divider-bottom">
+    <svg data-name="shape-divider-bottom" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+  </div>
+</section>
 {% include "./_includes/partials/content.html" %}

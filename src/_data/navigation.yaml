@@ -1,7 +1,9 @@
 items:
-  - text: Menu One
-    url: "#one"
-  - text: Menu Two
-    url: "#two"
-  - text: Menu Three
-    url: "#three"
+  - text: ABOUT
+    url: "#ABOUT"
+  - text: PROCES
+    url: "#PROCES"
+  - text: WIZARD
+    url: "#WIZARD"
+  - text: TECH
+    url: "#TECH"

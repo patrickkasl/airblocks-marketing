@@ -1,0 +1,5 @@
+#landing {
+    @apply grid grid-cols-2;
+    @apply bg-primary-nude;
+    line-height: 0.3;
+}
