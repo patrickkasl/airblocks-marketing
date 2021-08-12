@@ -10,6 +10,15 @@
     {% if description %}
       <meta name="description" content="{{description}}"/>
     {% endif %}
+    <link rel="canonical" href="/intro"/>
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:title" content={{title}}/>
+    <meta property="og:url" content={{permalink}} />
+    <meta property="og:description" content={{description}} />
+    <meta property="og:image" content="{{post_image}}"/>
+    <meta property="og:type" content="website" />
+
     {% block head %}{% endblock %}
     <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
     {% if prism == true %}
