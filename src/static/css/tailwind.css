@@ -2,13 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .snap {
+    scroll-snap-type: var(--scroll-snap-direction) var(--scroll-snap-constraint);
+  }
+  .snap-y {
+    --scroll-snap-direction: y;
+  }
+  .snap-mandatory {
+    --scroll-snap-constraint: mandatory;
+  }
+  .snap-start {
+    scroll-snap-align: start;
+  }
+}
+
 body {
   /**/
 }
 
+main {
+  @apply max-h-screen; 
+  @apply overflow-y-scroll;
+  @apply snap snap-y snap-mandatory;
+}
+
 section {
   @apply h-screen;
-  @apply relative;
+  @apply w-full;
+  @apply snap-start;
 }
 
 /* Landing Page */
@@ -64,6 +86,14 @@ section {
   @apply absolute;
   @apply left-28;
   @apply bottom-52;
+  @apply max-w-4xl;
+  @apply animate-bounce;
+}
+#cloudavatars-img {
+  @apply absolute;
+  @apply left-28;
+  @apply top-24;
+  @apply inset-y-2/4;
   @apply max-w-4xl;
   @apply animate-bounce;
 }

@@ -43,7 +43,6 @@ module.exports = function (eleventyConfig) {
   // Copy favicon to route of /_site
   eleventyConfig.addPassthroughCopy("./src/favicon.ico");
 
-
   // Copy Custom CSS to route of /_site
   eleventyConfig.addPassthroughCopy("./src/static/css/custom.css");
 
