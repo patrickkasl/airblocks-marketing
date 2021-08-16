@@ -1,4 +1,4 @@
-<div class="{{ 'lg:fixed' if path == 'home' }} w-full">
+<div class="fixed z-50 w-full">
     <nav class="container flex flex-wrap items-center justify-center p-6 mx-auto lg:justify-between lg:px-0" x-data="{ isOpen: false }" @keydown.escape="isOpen = false">
         <!--Toggle button (hidden on large screens)-->
         <button @click="isOpen = !isOpen" type="button" class="block px-2 ml-auto lg:hidden text-primary-500 hover:text-primary-500 focus:outline-none focus:text-primary-500" :class="{ 'transition transform-180': isOpen }" aria-label="Menu">
@@ -16,7 +16,7 @@
                 <ul class="items-center justify-center flex-1 pt-6 lg:pt-0 list-reset lg:flex">
                     {% for item in navigation.items %}
                         <li class="mr-3 nav__item">
-                            <a @click="isOpen = false" class="inline-block px-4 py-2 text-gray-500 no-underline text-ml hover:text-indigo-500" href="{{ item.url }}">{{ item.text }}</a>
+                            <a @click="isOpen = false" class="inline-block px-4 py-2 text-xl font-bold no-underline text-primary-orange hover:text-indigo-500" href="{{ item.url }}">{{ item.text }}</a>
                         </li>
                     {% endfor %}
                 </ul>

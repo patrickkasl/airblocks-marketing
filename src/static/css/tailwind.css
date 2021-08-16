@@ -17,12 +17,8 @@
   }
 }
 
-body {
-  /**/
-}
-
 main {
-  @apply max-h-screen; 
+  @apply max-h-screen;
   @apply overflow-y-scroll;
   @apply snap snap-y snap-mandatory;
 }
@@ -31,6 +27,8 @@ section {
   @apply h-screen;
   @apply w-full;
   @apply snap-start;
+  @apply relative;
+  @apply flex;
 }
 
 /* Landing Page */
@@ -39,19 +37,24 @@ section {
   @apply bg-primary-nude;
 }
 #landing-title {
-  @apply text-8xl;
   @apply absolute;
-  @apply text-primary-blue;
-  @apply ml-18;
-  @apply mt-32;
+  left: 34%;
+  @apply md:left-17;
+  @apply top-58;
+  @apply md:top-26;
   @apply z-40;
+  @apply text-3xl;
+  @apply md:text-9xl;
+  @apply text-primary-blue;
 }
 #landing-subtitle {
-  @apply text-5xl;
   @apply absolute;
+  left: 31%;
+  @apply md:left-17;
+  @apply top-64;
+  @apply md:top-56;
+  @apply text-5xl;
   @apply text-primary-blue;
-  @apply ml-18;
-  @apply mt-56;
 }
 #landing-subtitle-dot {
   @apply absolute;
@@ -63,9 +66,11 @@ section {
   @apply z-0;
 }
 #sun-container {
-  @apply mt-10;
   @apply absolute;
-  @apply ml-14;
+  @apply top-8;
+  left: 25%;
+  @apply md:top-8;
+  @apply md:left-18;
 }
 #cloud1-img {
   @apply absolute;
@@ -106,5 +111,9 @@ section {
   @apply transform rotate-180;
 }
 
+/* About Page */
 
+#about {
+  @apply bg-primary-blue;
+}
 

@@ -45,6 +45,9 @@ module.exports = {
     extend: {
       spacing: {
         '18' : '4.7rem',
+        '17' : '4.3rem',
+        '26' : '6.3rem',
+        '58' : '13.7rem',
       },
       animation: {
         bounce: 'bounce 10s infinite',
