@@ -104,12 +104,20 @@ section {
 }
 #balloon-img {
   @apply absolute;
+  @apply z-10;
   @apply w-72;
   @apply right-28;
-  @apply top-24;
   @apply inset-y-2/4;
   @apply max-w-4xl;
-  @apply animate-roll;
+  @apply animate-fly;
+}
+#fire-gif {
+  @apply absolute;
+  @apply w-64;
+  @apply right-36;
+  @apply -bottom-8;
+  @apply max-w-4xl;
+  @apply animate-fly;
 }
 #landing-shape-divider-bottom {
   @apply absolute;
@@ -126,3 +134,7 @@ section {
   @apply bg-primary-blue;
 }
 
+/* Foot page */
+#foot {
+  @apply bg-primary-nude;
+}
