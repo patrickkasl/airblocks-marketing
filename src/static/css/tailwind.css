@@ -137,3 +137,98 @@ section {
 #foot {
   @apply bg-primary-nude;
 }
+#cloud4-img {
+  @apply absolute;
+  @apply inset-y-40;
+  @apply left-96;
+  @apply max-w-sm;
+}
+#cloud5-img {
+  @apply absolute;
+  @apply inset-y-24;
+  @apply left-20;
+  @apply max-w-4xl;
+}
+#cloud6-img {
+  @apply absolute;
+  @apply right-24;
+  @apply top-1;
+  @apply max-w-xs;
+}
+#plants-right-img {
+  @apply absolute;
+  @apply max-w-xs;
+  @apply z-50;
+  @apply w-52;
+  @apply right-0;
+  @apply bottom-0;
+}
+#plants-left-img {
+  @apply absolute;
+  @apply max-w-xs;
+  @apply z-50;
+  @apply w-52;
+  @apply left-0;
+  @apply bottom-0;
+}
+#landscape-img {
+  @apply absolute;
+  @apply z-40;
+  @apply inset-x-0;
+  @apply w-full;
+  @apply bottom-0;
+}
+#mountains-left-img {
+  @apply absolute;
+  @apply max-w-5xl;
+  @apply z-30;
+  @apply left-0;
+  @apply bottom-40;
+}
+#mountains-right-img {
+  @apply absolute;
+  @apply w-96;
+  @apply z-30;
+  @apply right-0;
+  @apply bottom-40;
+}
+#star1-img {
+  @apply z-0;
+  @apply absolute;
+  @apply w-6;
+  @apply left-24;
+  @apply top-24;
+  @apply animate-spin;
+  @apply animate-pulse;}
+#star2-img {
+  @apply z-0;
+  @apply absolute;
+  @apply w-6;
+  @apply right-36;
+  @apply top-40;
+  @apply animate-spin;
+  @apply animate-pulse;}
+#star3-img {
+  @apply z-0;
+  @apply absolute;
+  @apply w-3;
+  @apply inset-x-18;
+  @apply top-40;
+  @apply animate-spin;
+}
+#star4-img {
+  @apply z-0;
+  @apply absolute;
+  @apply w-3;
+  @apply inset-1/2;
+  @apply top-40;
+  @apply animate-spin;
+}
+#star5-img {
+  @apply z-0;
+  @apply absolute;
+  @apply w-3;
+  @apply inset-1/4;
+  @apply top-60;
+  @apply animate-pulse;
+}
