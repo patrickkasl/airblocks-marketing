@@ -52,7 +52,7 @@ module.exports = {
       animation: {
         bounce: 'bounce 10s infinite',
         bounce_higher: 'bounce_y_balloon 5s infinite',
-        fly: 'fly 15s ease-in-out infinite',
+        fly: 'fly 30s ease-in-out infinite',
        },
        keyframes: {
         fly: {

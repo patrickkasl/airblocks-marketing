@@ -89,10 +89,9 @@ section {
 }
 #cloud3-img {
   @apply absolute;
-  @apply left-28;
+  @apply right-24;
   @apply bottom-52;
-  @apply max-w-4xl;
-  @apply animate-bounce;
+  @apply max-w-xs;
 }
 #cloudavatars-img {
   @apply absolute;
@@ -100,7 +99,6 @@ section {
   @apply top-24;
   @apply inset-y-2/4;
   @apply max-w-4xl;
-  @apply animate-bounce;
 }
 #balloon-img {
   @apply absolute;
@@ -113,7 +111,7 @@ section {
 }
 #fire-gif {
   @apply absolute;
-  @apply w-64;
+  @apply w-60;
   @apply right-36;
   @apply -bottom-8;
   @apply max-w-4xl;
@@ -121,6 +119,7 @@ section {
 }
 #landing-shape-divider-bottom {
   @apply absolute;
+  @apply z-20;
   @apply text-primary-blue; 
   @apply fill-current;
   @apply inset-x-0;
