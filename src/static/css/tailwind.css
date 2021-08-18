@@ -102,6 +102,15 @@ section {
   @apply max-w-4xl;
   @apply animate-bounce;
 }
+#balloon-img {
+  @apply absolute;
+  @apply w-72;
+  @apply right-28;
+  @apply top-24;
+  @apply inset-y-2/4;
+  @apply max-w-4xl;
+  @apply animate-roll;
+}
 #landing-shape-divider-bottom {
   @apply absolute;
   @apply text-primary-blue; 

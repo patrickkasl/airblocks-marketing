@@ -51,6 +51,17 @@ module.exports = {
       },
       animation: {
         bounce: 'bounce 10s infinite',
+        bounce_higher: 'bounce_y_balloon 5s infinite',
+        roll: 'roll 15s ease-in-out infinite',
+       },
+       keyframes: {
+        roll: {
+          '0%': { transform: 'translateY(0) rotate(0deg)' },
+          '25%': { transform: 'translateY(-20rem) rotate(10deg)' },
+          '50%': { transform: 'translateY(-100rem) rotate(-10deg)' },
+          '75%': { transform: 'translateY(-20rem) rotate(13deg)' },
+          '100%': { transform: 'translateY(0) rotate(-4deg)' },
+        }
        },
     },
   },
