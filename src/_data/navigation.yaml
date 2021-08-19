@@ -1,8 +1,8 @@
 items:
   - text: ABOUT
     url: "#about"
-  - text: PROCES
-    url: "#proces"
+  - text: PROCESS
+    url: "#process"
   - text: WIZARD
     url: "#wizard"
   - text: TECH

@@ -28,7 +28,6 @@ section {
   @apply w-full;
   @apply snap-start;
   @apply relative;
-  @apply flex;
 }
 
 /* Landing Page */
@@ -139,6 +138,11 @@ section {
   @apply bg-primary-blue;
 }
 
+/* Process page */
+#process {
+  @apply bg-primary-blue;
+}
+
 /* Foot page */
 #foot {
   @apply bg-primary-nude;
@@ -151,6 +155,7 @@ section {
 }
 #cloud5-img {
   @apply absolute;
+  @apply z-10;
   @apply inset-y-24;
   @apply left-20;
   @apply max-w-4xl;
@@ -237,4 +242,9 @@ section {
   @apply inset-1/4;
   @apply top-60;
   @apply animate-pulse;
+}
+#star-falling-img {
+  @apply w-10;
+  @apply ml-72;
+  @apply animate-falling;
 }

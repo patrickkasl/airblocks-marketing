@@ -53,6 +53,7 @@ module.exports = {
         bounce: 'bounce 10s infinite',
         bounce_higher: 'bounce_y_balloon 5s infinite',
         fly: 'fly 30s ease-in-out infinite',
+        falling: 'diagonal 30s ease infinite',
        },
        keyframes: {
         fly: {
@@ -61,8 +62,13 @@ module.exports = {
           '50%': { transform: 'translateY(-100rem) rotate(-10deg)' },
           '75%': { transform: 'translateY(-20rem) rotate(13deg)' },
           '100%': { transform: 'translateY(0) rotate(0deg)' },
-        }
+        },
+        diagonal: {
+            '0%': { transform: 'translateY(-40em) scale(.1,.1)' },
+            '50%': { transform: 'scale(.6,.6)' },
+            '100%': { transform: 'translateY(7rem) scale(.1,.1)' },
        },
+      },
     },
   },
   variants: {},
