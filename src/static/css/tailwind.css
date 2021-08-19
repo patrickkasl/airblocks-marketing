@@ -103,18 +103,24 @@ section {
 #balloon-img {
   @apply absolute;
   @apply z-10;
-  @apply w-72;
-  @apply right-28;
-  @apply inset-y-2/4;
-  @apply max-w-4xl;
+  @apply w-20;
+  @apply inset-y-96;
+  @apply sm:inset-y-0;
+  @apply sm:w-72;
+  @apply right-10;
+  @apply sm:right-28;
+  @apply md:max-w-4xl;
+  @apply max-w-sm;
   @apply animate-fly;
 }
 #fire-gif {
   @apply absolute;
   @apply w-60;
+  @apply inset-y-60;
   @apply right-36;
-  @apply -bottom-8;
   @apply max-w-4xl;
+  @apply invisible;
+  @apply sm:visible;
   @apply animate-fly;
 }
 #landing-shape-divider-bottom {
