@@ -33,9 +33,7 @@
 
     {% block head %}{% endblock %}
     <link rel="stylesheet" type="text/css" href="/static/css/style.css"/>
-    {% if prism == true %}
-      <link rel="stylesheet" type="text/css" href="/static/css/prism-tomorrow.css">
-    {% endif %}
+    <link rel="stylesheet" type="text/css" href="/static/css/custom.css"/>
   </head>
   <body>
     {% include "./partials/navbar.html" %}
@@ -45,6 +43,8 @@
     {% include "./partials/footer.html" %}
 
     <script src="/static/js/alpine.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/static/js/main.js"></script>
 
     {% if path == "home" %}
       <!-- Netlify Identity Widget -->

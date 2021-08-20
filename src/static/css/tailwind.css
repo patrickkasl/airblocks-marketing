@@ -137,6 +137,14 @@ section {
 #about {
   @apply bg-primary-blue;
 }
+#patrick-img {
+  @apply w-52;
+}
+#eyes {
+  @apply absolute;
+  @apply left-18;
+  @apply top-24;
+}
 
 /* Process page */
 #process {

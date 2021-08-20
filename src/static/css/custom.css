@@ -1,0 +1,23 @@
+body {
+    /* The second value here is a fallback. */
+    cursor: url('../img/cursor.png'), auto!important;
+}
+
+.eye {
+  position: relative;
+  display: inline-block;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  background: rgb(255, 255, 255);
+}
+.eye:after { /*pupil*/
+  position: absolute;
+  bottom: 14px;
+  right: 7px;
+  width: 17px;
+  height: 17px;
+  background: #000;
+  border-radius: 100%;
+  content: " ";
+}
