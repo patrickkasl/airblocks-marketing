@@ -138,12 +138,15 @@ section {
   @apply bg-primary-blue;
 }
 #patrick-img {
-  @apply w-52;
+  @apply absolute;
+  @apply right-32;
+  @apply top-1/4;
+  @apply w-96;
 }
 #eyes {
   @apply absolute;
-  @apply left-18;
-  @apply top-24;
+  @apply right-36;
+  @apply top-36;
 }
 
 /* Process page */
