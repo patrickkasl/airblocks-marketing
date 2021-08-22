@@ -49,6 +49,9 @@ module.exports = function (eleventyConfig) {
   // Copy Custom CSS to route of /_site
   eleventyConfig.addPassthroughCopy("./src/static/css/custom.css");
 
+    // Copy Custom SCSS to route of /_site
+    eleventyConfig.addPassthroughCopy("./src/static/css/custom.scss");
+
   // Minify HTML
   eleventyConfig.addTransform("htmlmin", function (content, outputPath) {
     // Eleventy 1.0+: use this.inputPath and this.outputPath instead

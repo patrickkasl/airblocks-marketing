@@ -154,6 +154,12 @@ section {
   @apply bg-primary-blue;
 }
 
+/* Wizard page */
+#wizard {
+  @apply bg-primary-blue;
+}
+
+
 /* Foot page */
 #foot {
   @apply bg-primary-nude;

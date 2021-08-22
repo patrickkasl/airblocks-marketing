@@ -6,7 +6,7 @@
     "css": "postcss src/static/css/tailwind.css --o _site/static/css/style.css --watch",
     "build": "cross-env NODE_ENV=production eleventy && cross-env NODE_ENV=production postcss src/static/css/tailwind.css --o _site/static/css/style.css",
     "browsersync": "browser-sync start --server '_site' --files '_site' --port 8080 --no-notify --no-open",
-    "twguide" : "npx tailwind-config-viewer"
+    "twguide": "npx tailwind-config-viewer"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
@@ -25,7 +25,9 @@
     "tailwindcss": "^2.0.2"
   },
   "dependencies": {
+    "@tailwindcss/forms": "^0.3.3",
     "autoprefixer": "^10.1.0",
-    "postcss": "^8.2.1"
+    "postcss": "^8.2.1",
+    "sass": "^1.38.0"
   }
 }
