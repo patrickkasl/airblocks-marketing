@@ -52,6 +52,7 @@ module.exports = {
       animation: {
         bounce: 'bounce 10s infinite',
         bounce_higher: 'bounce_y_balloon 5s infinite',
+        bounce_low:'bounce_low 10s infinite',
         fly: 'fly 30s ease-in-out infinite',
         falling: 'diagonal 30s ease infinite',
        },
@@ -67,6 +68,11 @@ module.exports = {
             '0%': { transform: 'translateY(-40em) scale(.1,.1)' },
             '50%': { transform: 'scale(.6,.6)' },
             '100%': { transform: 'translateY(7rem) scale(.1,.1)' },
+       },
+       bounce_low: {
+        '0%' :{ transform: 'rotate(5deg)' }, 
+        '50%': { transform: 'rotate(25deg)' },
+        '100%': { transform: 'rotate(5deg)' },
        },
       },
     },
