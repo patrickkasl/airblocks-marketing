@@ -141,12 +141,13 @@ section {
   @apply absolute;
   @apply right-32;
   @apply top-1/4;
-  @apply w-96;
+  @apply w-52 xl:w-96;
 }
 #eyes {
   @apply absolute;
-  @apply right-36;
-  @apply top-36;
+  @apply xl:right-36 right-12;
+  @apply xl:top-36 top-14;
+  @apply invisible xl:visible;
 }
 
 /* Process page */
