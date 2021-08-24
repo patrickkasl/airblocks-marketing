@@ -161,7 +161,7 @@ section {
 }
 
 /* Foot page */
-#foot {
+#contact {
   @apply bg-primary-nude;
 }
 #cloud4-img {
