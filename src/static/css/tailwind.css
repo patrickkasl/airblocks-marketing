@@ -163,6 +163,12 @@ section {
 /* Foot page */
 #contact {
   @apply bg-primary-nude;
+  @apply relative;
+}
+.hand-img {
+  @apply w-6 h-6;
+  @apply transform rotate-90;
+  @apply float-right;
 }
 #cloud4-img {
   @apply absolute;
