@@ -33,6 +33,7 @@ module.exports = {
         greyLight : '#4F5A5C',
         brown : '#80403A',
         brownDark : '#592F2D',
+        navBlue: '#193F92',
       }
     },
     fontFamily : {
@@ -43,6 +44,9 @@ module.exports = {
       center: true,
     },
     extend: {
+      inset: {
+       '76': '18rem',
+      },
       spacing: {
         '18' : '4.7rem',
         '17' : '4.3rem',

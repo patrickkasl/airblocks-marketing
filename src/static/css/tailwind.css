@@ -30,26 +30,37 @@ section {
   @apply relative;
 }
 
+#logo-img {
+  @apply absolute;
+  @apply w-32;
+  @apply z-0;
+}
+
 /* Landing Page */
 
 #landing {
   @apply bg-primary-nude;
+  @apply relative;
 }
 #landing-title {
   @apply absolute;
-  left: 34%;
-  @apply md:left-17;
+  @apply w-full;
+  @apply md:left-24;
   @apply top-58;
-  @apply md:top-26;
+  @apply md:top-32;
   @apply z-40;
   @apply text-3xl;
-  @apply md:text-9xl;
+  @apply text-center;
+  @apply md:text-justify;
+  @apply md:text-8xl;
   @apply text-primary-blue;
 }
 #landing-subtitle {
   @apply absolute;
-  left: 31%;
-  @apply md:left-17;
+  @apply w-full;
+  @apply md:left-24;
+  @apply text-center;
+  @apply md:text-justify;
   @apply top-64;
   @apply md:top-56;
   @apply text-5xl;
@@ -67,7 +78,6 @@ section {
 #sun-container {
   @apply absolute;
   @apply top-8;
-  left: 25%;
   @apply md:top-8;
   @apply md:left-18;
 }
@@ -114,9 +124,10 @@ section {
 }
 #fire-gif {
   @apply absolute;
-  @apply w-60;
-  @apply inset-y-60;
-  @apply right-36;
+  @apply z-0;
+  @apply w-16;
+  @apply inset-y-76;
+  @apply right-56;
   @apply max-w-4xl;
   @apply invisible;
   @apply sm:visible;
@@ -193,7 +204,8 @@ section {
   @apply absolute;
   @apply max-w-xs;
   @apply z-50;
-  @apply w-52;
+  @apply w-32;
+  @apply md:w-52;
   @apply right-0;
   @apply bottom-0;
 }
@@ -201,7 +213,8 @@ section {
   @apply absolute;
   @apply max-w-xs;
   @apply z-50;
-  @apply w-52;
+  @apply w-32;
+  @apply md:w-52;
   @apply left-0;
   @apply bottom-0;
 }
@@ -214,6 +227,8 @@ section {
 }
 #mountains-left-img {
   @apply absolute;
+  @apply invisible;
+  @apply md:visible;
   @apply max-w-5xl;
   @apply z-30;
   @apply left-0;
