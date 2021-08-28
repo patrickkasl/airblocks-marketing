@@ -41,15 +41,18 @@ section {
 #landing {
   @apply bg-primary-nude;
   @apply relative;
+  @apply flex;
+  @apply justify-center;
+  @apply items-center;
 }
 #landing-title {
   @apply absolute;
   @apply w-full;
   @apply md:left-24;
-  @apply top-58;
+  @apply top-60;
   @apply md:top-32;
   @apply z-40;
-  @apply text-3xl;
+  @apply text-4xl;
   @apply text-center;
   @apply md:text-justify;
   @apply md:text-8xl;
@@ -61,8 +64,9 @@ section {
   @apply md:left-24;
   @apply text-center;
   @apply md:text-justify;
-  @apply top-64;
+  @apply top-70;
   @apply md:top-56;
+  @apply font-light;
   @apply text-5xl;
   @apply text-primary-blue;
 }
@@ -87,6 +91,8 @@ section {
   @apply right-60;
   @apply max-w-4xl;
   @apply animate-bounce;
+  @apply invisible;
+  @apply md:visible;
 }
 #cloud2-img {
   @apply absolute;
@@ -98,13 +104,18 @@ section {
 }
 #cloud3-img {
   @apply absolute;
-  @apply right-24;
-  @apply bottom-52;
+  @apply md:right-24;
+  @apply right-10;
+  @apply bottom-20;
+  @apply md:bottom-0;
+  @apply w-24;
+  @apply md:bottom-52;
   @apply max-w-xs;
 }
 #cloudavatars-img {
   @apply absolute;
-  @apply left-28;
+  @apply left-10;
+  @apply md:left-24;
   @apply top-24;
   @apply inset-y-2/4;
   @apply max-w-4xl;
@@ -112,7 +123,8 @@ section {
 #balloon-img {
   @apply absolute;
   @apply z-10;
-  @apply w-20;
+  @apply w-40;
+  @apply md:w-20;
   @apply inset-y-96;
   @apply sm:inset-y-0;
   @apply sm:w-72;
@@ -141,6 +153,9 @@ section {
   @apply inset-x-0;
   @apply bottom-0;
   @apply transform rotate-180;
+}
+#divider {
+  @apply h-40;
 }
 
 /* About Page */

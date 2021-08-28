@@ -52,6 +52,8 @@ module.exports = {
         '17' : '4.3rem',
         '26' : '6.3rem',
         '58' : '13.7rem',
+        '70' : '17.3rem',
+        '100' : '28rem',
       },
       animation: {
         bounce: 'bounce 10s infinite',

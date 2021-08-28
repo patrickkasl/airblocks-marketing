@@ -9,7 +9,7 @@
         </button>
 
         <!--Menu-->
-        <img x-show="!isOpen" id="logo-img" src="/static/svg/airblocks_logo_white.svg" alt="logo">
+        <a id="logo-img" href="#landing"><img x-show="!isOpen" src="/static/svg/airblocks_logo_white.svg" alt="logo"></a>
 
         <div class="flex-grow w-full text-center md:bg-opacity-0 rounded-xl lg:flex lg:items-center lg:w-auto bg-other-navBlue" :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" @click.away="isOpen = false" x-show.transition="true">
 

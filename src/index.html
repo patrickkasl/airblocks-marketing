@@ -22,7 +22,7 @@ path: intro
     <img id="cloud1-img" src="/static/svg/cloud1.svg" alt="cloud1">
     <img id="cloud2-img" src="/static/svg/cloud2.svg" alt="cloud2">
     <img id="cloud3-img" src="/static/svg/cloud3.svg" alt="cloud3">
-    <img id="cloudavatars-img" src="/static/svg/BLOCKS.svg" alt="avatars_on_cloud">
+    <img id="cloudavatars-img" width="600" src="/static/svg/BLOCKS.svg" alt="avatars_on_cloud">
     <img id="balloon-img" src="/static/svg/balloon.svg" alt="avatars_on_cloud">
     <img id="fire-gif" src="/static/img/flame.gif" alt="fire">
     
@@ -30,13 +30,13 @@ path: intro
     
     <div id="landing-shape-divider-bottom">
       <svg data-name="shape-divider-bottom" viewBox="0 0 1200 120" preserveAspectRatio="none">
-          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+          <path id='divider' d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
       </svg>
     </div>
   </section>
   
   <section id="about">
-    <div class="absolute w-full p-6 pl-20 font-semibold transform -translate-y-1/2 lg:text-lg lg:w-7/12 -translate-x-1/8 top-1/2 left-1/8 text-primary-white">
+    <div class="absolute w-full p-6 font-semibold transform -translate-y-1/2 md:pl-20 lg:text-lg lg:w-7/12 -translate-x-1/8 top-1/2 left-1/8 text-primary-white">
       <h5 class="mt-0 mb-4 font-bold text-1xl lg:text-3xl">HI!</h5>
       <p class="text-sm font-light xl:text-lg">Airblocks is een bureau gespecialiseerd in web-design en development. 
         Bij ons staat luchtig<span class="text-3xl text-primary-yellow">.</span> centraal. Samen met jou zorgen wij ervoor dat jouw bedrijf of start-up een ijzer sterke <span class="text-primary-yellow">online-presence</span> krijgt.
@@ -232,6 +232,7 @@ path: intro
         </div>
       </div>
     </div>
+    {% include "./_includes/partials/footer.html" %}
   </section>
 </main>
 <!-- {% include "./_includes/partials/content.html" %} -->
