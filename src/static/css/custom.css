@@ -52,3 +52,42 @@ body {
 .magny-cursor{
   cursor: url('../svg/magnifier.svg'), auto!important;
 }
+
+.loading {
+  position: relative;
+  font-size: 30px;
+  left: 95px;
+  height: 0px;
+}
+
+.loading:after {
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipsis steps(4,end) 6s infinite;      
+  animation: ellipsis steps(4,end) 6s infinite;
+  content: "\2026"; /* ascii code for the ellipsis character */
+  width: 0px;
+}
+
+@keyframes ellipsis {
+  to {
+    width: 1em;    
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 1em;    
+  }
+}
+
+.spinwheel {
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: spin 16s cubic-bezier(.8, 5, .2, 1) infinite;
+  @keyframes spin {
+    50% { transform: rotate(45deg); }
+    100% { transform: rotate(0deg); }
+  }
+}

@@ -32,8 +32,10 @@ section {
 
 #logo-img {
   @apply absolute;
-  @apply w-32;
+  @apply w-26;
+  @apply mb-5;
   @apply z-0;
+  @apply mx-auto;
 }
 
 /* Landing Page */
