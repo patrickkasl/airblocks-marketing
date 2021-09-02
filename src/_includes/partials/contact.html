@@ -1,0 +1,73 @@
+<section id="contact">
+  <img id="cloud4-img" src="/static/svg/cloud1.svg" alt="cloud1">
+  <img id="cloud5-img" src="/static/svg/cloud2.svg" alt="cloud2">
+  <img id="cloud6-img" src="/static/svg/cloud3.svg" alt="cloud3">
+  <img id="plants-right-img" src="/static/svg/PLANTS_RIGHT.svg" alt="plants1">
+  <img id="plants-left-img" src="/static/svg/PLANTS_LEFT.svg" alt="plants2">
+  <img id="landscape-img" src="/static/svg/LANDSCAPE.svg" alt="landscape">
+  <img id="mountains-left-img" src="/static/svg/MOUNTAINS_LEFT.svg" alt="mountains1">
+  <img id="mountains-right-img" src="/static/svg/MOUNTAINS_RIGHT.svg" alt="mountains2">
+  <img id="star1-img" src="/static/svg/STAR.svg" alt="star1">
+  <img id="star2-img" src="/static/svg/STAR.svg" alt="star2">
+  <img id="star3-img" src="/static/svg/STAR.svg" alt="star3">
+  <img id="star4-img" src="/static/svg/STAR.svg" alt="star4">
+  <img id="star5-img" src="/static/svg/STAR.svg" alt="star5">
+  <img id="star-falling-img" src="/static/img/falling_star.png" alt="star5">
+
+  <!-- FORM -->
+  
+  <div class="absolute z-40 mx-auto rounded-lg inset-x-8 md:inset-x-18 inset-y-18 md:inset-y-18 bg-primary-orange bg-opacity-30">
+    <div class="grid max-w-screen-xl grid-cols-1 px-8 mx-auto mt-10 rounded-lg md:mt-24 md:gap-8 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32">
+      <div class="flex flex-col justify-between">
+        <div>
+          <h2 class="text-4xl font-bold leading-tight text-primary-white lg:text-5xl">Neem contact op</h2>
+          <div class="mt-8 font-light text-primary-white">Gebruik je liever jouw eigen e-mail client? Klik dan <span class="underline"><a href = "mailto: patrick@airblocks.nl">hier</a></span>.</div>
+        </div>
+      </div>
+      <div class="overflow-y-scroll h-80">
+        <div>
+          <span class="px-1 text-sm font-bold uppercase text-primary-white">Naam</span>
+          <div class="relative flex flex-wrap items-stretch w-full px-1 mb-3">
+            <span class="absolute z-10 items-center justify-center hidden w-8 h-full py-3 pl-3 text-base font-normal leading-snug text-center bg-transparent rounded text-blueGray-300">
+              <img class="hand-img" src="/static/svg/hand_pixel.svg" alt="hand_pixel">
+            </span>
+            <input type="text" placeholder="Placeholder" class="relative w-full px-3 py-3 pl-10 text-sm bg-white border-0 rounded shadow outline-none forminput placeholder-blueGray-300 text-blueGray-600 focus:outline-none focus:ring-primary-blue"/>
+          </div>
+        </div>
+        <div>
+          <span class="px-1 text-sm font-bold uppercase text-primary-white">Naam</span>
+          <div class="relative flex flex-wrap items-stretch w-full px-1 mb-3">
+            <span class="absolute z-10 items-center justify-center hidden w-8 h-full py-3 pl-3 text-base font-normal leading-snug text-center bg-transparent rounded text-blueGray-300">
+              <img class="hand-img" src="/static/svg/hand_pixel.svg" alt="hand_pixel">
+            </span>
+            <input type="text" placeholder="Placeholder" class="relative w-full px-3 py-3 pl-10 text-sm bg-white border-0 rounded shadow outline-none forminput placeholder-blueGray-300 text-blueGray-600 focus:outline-none focus:ring-primary-blue"/>
+          </div>
+        </div>
+        <div>
+          <span class="px-1 text-sm font-bold uppercase text-primary-white">E-mail</span>
+          <div class="relative flex flex-wrap items-stretch w-full px-1 mb-3">
+            <span class="absolute z-10 items-center justify-center hidden w-8 h-full py-3 pl-3 text-base font-normal leading-snug text-center bg-transparent rounded text-blueGray-300">
+              <img class="hand-img" src="/static/svg/hand_pixel.svg" alt="hand_pixel">
+            </span>
+            <input type="email" placeholder="jouw@email.nl" class="relative w-full px-3 py-3 pl-10 text-sm bg-white border-0 rounded shadow outline-none forminput placeholder-blueGray-300 text-blueGray-600 focus:outline-none focus:ring-primary-blue"/>
+          </div>
+        </div>
+
+        <div>
+          <span class="px-1 text-sm font-bold uppercase text-primary-white">Bericht</span>
+          <div class="relative flex flex-wrap items-stretch w-full px-1 mb-3">
+            <textarea class="relative w-full py-3 text-sm bg-white border-0 rounded shadow outline-none forminput text-blueGray-600 focus:outline-none focus:ring-primary-blue"></textarea>
+          </div>
+        </div>
+        
+        <div class="mt-8">
+          <button
+            class="w-full p-3 text-sm font-bold tracking-wide uppercase bg-indigo-500 rounded-lg text-primary-white focus:outline-none focus:shadow-outline">
+            Send Message
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% include "./footer.html" %}
+</section>
