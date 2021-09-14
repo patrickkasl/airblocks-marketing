@@ -1,6 +1,7 @@
 body {
     /* The second value here is a fallback. */
     cursor: url('../img/cursor.png'), auto;
+    ul { @apply list-disc }
 }
 
 .eye {
@@ -49,9 +50,9 @@ body {
   height: 100px; */
 /* }  */
 
-.magny-cursor{
+/* .magny-cursor{
   cursor: url('../svg/magnifier.svg'), auto!important;
-}
+} */
 
 .loading {
   position: relative;

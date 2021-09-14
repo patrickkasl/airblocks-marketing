@@ -15,59 +15,59 @@
   <img id="star-falling-img" src="/static/img/falling_star.png" alt="star5">
 
   <!-- FORM -->
-  
-  <div class="absolute z-40 mx-auto rounded-lg inset-x-8 md:inset-x-18 inset-y-18 md:inset-y-18 bg-primary-orange bg-opacity-30">
-    <div class="grid max-w-screen-xl grid-cols-1 px-8 mx-auto mt-10 rounded-lg md:mt-24 md:gap-8 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32">
-      <div class="flex flex-col justify-between">
-        <div>
-          <h2 class="text-4xl font-bold leading-tight text-primary-white lg:text-5xl">Neem contact op</h2>
-          <div class="mt-8 font-light text-primary-white">Gebruik je liever jouw eigen e-mail client? Klik dan <span class="underline"><a href = "mailto: patrick@airblocks.nl">hier</a></span>.</div>
-        </div>
-      </div>
-      <div class="overflow-y-scroll h-80">
-        <div>
-          <span class="px-1 text-sm font-bold uppercase text-primary-white">Naam</span>
-          <div class="relative flex flex-wrap items-stretch w-full px-1 mb-3">
-            <span class="absolute z-10 items-center justify-center hidden w-8 h-full py-3 pl-3 text-base font-normal leading-snug text-center bg-transparent rounded text-blueGray-300">
-              <img class="hand-img" src="/static/svg/hand_pixel.svg" alt="hand_pixel">
-            </span>
-            <input type="text" placeholder="Placeholder" class="relative w-full px-3 py-3 pl-10 text-sm bg-white border-0 rounded shadow outline-none forminput placeholder-blueGray-300 text-blueGray-600 focus:outline-none focus:ring-primary-blue"/>
+  <form name="contact" method="POST" data-netlify="true">
+    <div class="absolute z-40 mx-auto rounded-lg inset-x-8 md:inset-x-18 inset-y-18 md:inset-y-18 bg-primary-orange bg-opacity-30">
+      <div class="grid max-w-screen-xl grid-cols-1 px-8 mx-auto mt-10 rounded-lg md:mt-24 md:gap-8 md:grid-cols-2 md:px-12 lg:px-16 xl:px-32">
+        <div class="flex flex-col justify-between">
+          <div>
+            <h2 class="text-4xl font-bold leading-tight text-primary-white lg:text-5xl">Neem contact op</h2>
+            <div class="mt-8 font-light text-primary-white">Gebruik je liever jouw eigen e-mail client? Klik dan <span class="underline"><a href = "mailto: patrick@airblocks.nl">hier</a></span>.</div>
           </div>
         </div>
-        <div>
-          <span class="px-1 text-sm font-bold uppercase text-primary-white">Naam</span>
-          <div class="relative flex flex-wrap items-stretch w-full px-1 mb-3">
-            <span class="absolute z-10 items-center justify-center hidden w-8 h-full py-3 pl-3 text-base font-normal leading-snug text-center bg-transparent rounded text-blueGray-300">
-              <img class="hand-img" src="/static/svg/hand_pixel.svg" alt="hand_pixel">
-            </span>
-            <input type="text" placeholder="Placeholder" class="relative w-full px-3 py-3 pl-10 text-sm bg-white border-0 rounded shadow outline-none forminput placeholder-blueGray-300 text-blueGray-600 focus:outline-none focus:ring-primary-blue"/>
+        <div class="overflow-y-scroll h-80">
+          <div>
+            <span class="px-1 text-sm font-bold uppercase text-primary-white">Naam</span>
+            <div class="relative flex flex-wrap items-stretch w-full px-1 mb-3">
+              <span class="absolute z-10 items-center justify-center hidden w-8 h-full py-3 pl-3 text-base font-normal leading-snug text-center bg-transparent rounded text-blueGray-300">
+                <img class="hand-img" src="/static/svg/hand_pixel.svg" alt="hand_pixel">
+              </span>
+              <input name="name" type="text" class="relative w-full px-3 py-3 pl-10 text-sm bg-white border-0 rounded shadow outline-none forminput placeholder-blueGray-300 text-blueGray-600 focus:outline-none focus:ring-primary-blue"/>
+            </div>
           </div>
-        </div>
-        <div>
-          <span class="px-1 text-sm font-bold uppercase text-primary-white">E-mail</span>
-          <div class="relative flex flex-wrap items-stretch w-full px-1 mb-3">
-            <span class="absolute z-10 items-center justify-center hidden w-8 h-full py-3 pl-3 text-base font-normal leading-snug text-center bg-transparent rounded text-blueGray-300">
-              <img class="hand-img" src="/static/svg/hand_pixel.svg" alt="hand_pixel">
-            </span>
-            <input type="email" placeholder="jouw@email.nl" class="relative w-full px-3 py-3 pl-10 text-sm bg-white border-0 rounded shadow outline-none forminput placeholder-blueGray-300 text-blueGray-600 focus:outline-none focus:ring-primary-blue"/>
+          <div>
+            <span class="px-1 text-sm font-bold uppercase text-primary-white">Bedrijf</span>
+            <div class="relative flex flex-wrap items-stretch w-full px-1 mb-3">
+              <span class="absolute z-10 items-center justify-center hidden w-8 h-full py-3 pl-3 text-base font-normal leading-snug text-center bg-transparent rounded text-blueGray-300">
+                <img class="hand-img" src="/static/svg/hand_pixel.svg" alt="hand_pixel">
+              </span>
+              <input name="company" type="text" class="relative w-full px-3 py-3 pl-10 text-sm bg-white border-0 rounded shadow outline-none forminput placeholder-blueGray-300 text-blueGray-600 focus:outline-none focus:ring-primary-blue"/>
+            </div>
           </div>
-        </div>
+          <div>
+            <span class="px-1 text-sm font-bold uppercase text-primary-white">E-mail</span>
+            <div class="relative flex flex-wrap items-stretch w-full px-1 mb-3">
+              <span class="absolute z-10 items-center justify-center hidden w-8 h-full py-3 pl-3 text-base font-normal leading-snug text-center bg-transparent rounded text-blueGray-300">
+                <img class="hand-img" src="/static/svg/hand_pixel.svg" alt="hand_pixel">
+              </span>
+              <input name="email" type="email" class="relative w-full px-3 py-3 pl-10 text-sm bg-white border-0 rounded shadow outline-none forminput placeholder-blueGray-300 text-blueGray-600 focus:outline-none focus:ring-primary-blue"/>
+            </div>
+          </div>
 
-        <div>
-          <span class="px-1 text-sm font-bold uppercase text-primary-white">Bericht</span>
-          <div class="relative flex flex-wrap items-stretch w-full px-1 mb-3">
-            <textarea class="relative w-full py-3 text-sm bg-white border-0 rounded shadow outline-none forminput text-blueGray-600 focus:outline-none focus:ring-primary-blue"></textarea>
+          <div>
+            <span class="px-1 text-sm font-bold uppercase text-primary-white">Bericht</span>
+            <div class="relative flex flex-wrap items-stretch w-full px-1 mb-3">
+              <textarea name="message" class="relative w-full py-3 text-sm bg-white border-0 rounded shadow outline-none forminput text-blueGray-600 focus:outline-none focus:ring-primary-blue"></textarea>
+            </div>
           </div>
-        </div>
-        
-        <div class="mt-8">
-          <button
-            class="w-full p-3 text-sm font-bold tracking-wide uppercase bg-indigo-500 rounded-lg text-primary-white focus:outline-none focus:shadow-outline">
-            Send Message
-          </button>
+          
+          <div class="mt-8">
+            <button type="submit" class="w-full p-3 text-sm font-bold tracking-wide uppercase bg-indigo-500 rounded-lg text-primary-white focus:outline-none focus:shadow-outline">
+              Send Message
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </form>
   {% include "./footer.html" %}
 </section>

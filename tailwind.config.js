@@ -34,6 +34,12 @@ module.exports = {
         brown : '#80403A',
         brownDark : '#592F2D',
         navBlue: '#193F92',
+      },
+      card: {
+        salmon:'#DBA280',
+        aqua:'#36A4C3',
+        jeans:'#7699D0',
+        brick:'#C47548',
       }
     },
     fontFamily : {
