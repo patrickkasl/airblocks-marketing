@@ -103,6 +103,8 @@ section {
   @apply left-80;
   @apply max-w-4xl;
   @apply animate-bounce;
+  @apply invisible;
+  @apply md:visible;
 }
 #cloud3-img {
   @apply absolute;
@@ -203,6 +205,8 @@ section {
   @apply inset-y-40;
   @apply left-96;
   @apply max-w-sm;
+  @apply invisible;
+  @apply md:visible;
 }
 #cloud5-img {
   @apply absolute;
