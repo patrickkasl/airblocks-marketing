@@ -1,9 +1,9 @@
 items:
-  - text: ABOUT
+  - text: AIRBLOCKS
     url: "#about"
-  - text: PROCESS
+  - text: PROCES
     url: "#process"
-  - text: WIZARD
-    url: "#wizard"
+  - text: PAKKET
+    url: "#packages"
   - text: CONTACT
     url: "#contact"
