@@ -21,6 +21,8 @@ main {
   @apply max-h-screen;
   @apply overflow-y-scroll;
   @apply snap snap-y snap-mandatory;
+  @apply relative;
+  @apply max-w-full;
 }
 
 section {
@@ -49,7 +51,6 @@ section {
 }
 #landing-title {
   @apply absolute;
-  @apply w-full;
   @apply md:left-24;
   @apply top-60;
   @apply md:top-32;
@@ -62,7 +63,6 @@ section {
 }
 #landing-subtitle {
   @apply absolute;
-  @apply w-full;
   @apply md:left-24;
   @apply text-center;
   @apply md:text-justify;
