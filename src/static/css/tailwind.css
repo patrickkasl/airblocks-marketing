@@ -20,6 +20,7 @@
 main {
   @apply max-h-screen;
   @apply overflow-y-scroll;
+  @apply overflow-x-hidden;
   @apply snap snap-y snap-mandatory;
   @apply relative;
   @apply max-w-full;
@@ -48,7 +49,6 @@ section {
   @apply flex;
   @apply justify-center;
   @apply items-center;
-  @apply overflow-hidden;
 }
 #landing-title {
   @apply absolute;
