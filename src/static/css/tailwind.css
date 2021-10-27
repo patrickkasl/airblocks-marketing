@@ -48,6 +48,7 @@ section {
   @apply flex;
   @apply justify-center;
   @apply items-center;
+  @apply overflow-hidden;
 }
 #landing-title {
   @apply absolute;
